@@ -1,0 +1,178 @@
+# Настройки острова
+island_config:
+  width: 100
+  height: 20
+
+# Характеристики животных
+wolf_char:
+  weight: 50
+  max_per_cell: 30
+  speed: 3
+  food_needed: 8
+
+boa_char:
+  weight: 15
+  max_per_cell: 30
+  speed: 1
+  food_needed: 3
+
+fox_char:
+  weight: 8
+  max_per_cell: 30
+  speed: 2
+  food_needed: 2
+
+bear_char:
+  weight: 500
+  max_per_cell: 5
+  speed: 2
+  food_needed: 80
+
+eagle_char:
+  weight: 6
+  max_per_cell: 20
+  speed: 3
+  food_needed: 1
+
+horse_char:
+  weight: 400
+  max_per_cell: 20
+  speed: 4
+  food_needed: 60
+
+deer_char:
+  weight: 300
+  max_per_cell: 20
+  speed: 4
+  food_needed: 50
+
+rabbit_char:
+  weight: 2
+  max_per_cell: 150
+  speed: 2
+  food_needed: 0.45
+
+mouse_char:
+  weight: 0.05
+  max_per_cell: 500
+  speed: 1
+  food_needed: 0.01
+
+goat_char:
+  weight: 60
+  max_per_cell: 140
+  speed: 3
+  food_needed: 10
+
+sheep_char:
+  weight: 70
+  max_per_cell: 140
+  speed: 3
+  food_needed: 15
+
+boar_char:
+  weight: 400
+  max_per_cell: 50
+  speed: 2
+  food_needed: 50
+
+buffalo_char:
+  weight: 700
+  max_per_cell: 10
+  speed: 3
+  food_needed: 100
+
+duck_char:
+  weight: 1
+  max_per_cell: 200
+  speed: 4
+  food_needed: 0.15
+
+caterpillar_char:
+  weight: 0.01
+  max_per_cell: 1000
+  speed: 0
+  food_needed: 0
+
+plant_char:
+  weight: 1
+  max_per_cell: 200
+  speed: 0
+  food_needed: 0
+
+
+# Вероятность с
+wolf_var_eat:
+  horse: 10
+  deer: 15
+  rabbit: 60
+  mouse: 80
+  goat: 60
+  sheep: 70
+  boar: 15
+  buffalo: 10
+  duck: 40
+
+boa_var_eat:
+  fox: 15
+  rabbit: 20
+  mouse: 40
+  duck: 10
+
+fox_var_eat:
+  rabbit: 70
+  mouse: 90
+  duck: 60
+  caterpillar: 40
+
+bear_var_eat:
+  boa: 80
+  horse: 40
+  deer: 80
+  rabbit: 80
+  mouse: 90
+  goat: 70
+  sheep: 70
+  boar: 50
+  buffalo: 20
+  duck: 10
+
+eagle_var_eat:
+  fox: 10
+  rabbit: 90
+  mouse: 90
+  duck: 80
+
+horse_var_eat:
+  plant: 100
+
+deer_var_eat:
+  plant: 100
+
+rabbit_var_eat:
+  plant: 100
+
+mouse_var_eat:
+  caterpillar: 90
+  plant: 100
+
+goat_var_eat:
+  plant: 100
+
+sheep_var_eat:
+  plant: 100
+
+boar_var_eat:
+  mouse: 50
+  caterpillar: 90
+  plant: 100
+
+buffalo_var_eat:
+  plant: 100
+
+duck_var_eat:
+  caterpillar: 90
+  plant: 100
+
+caterpillar_var_eat:
+  plant: 100

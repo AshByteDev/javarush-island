@@ -101,7 +101,7 @@ plant_char:
   food_needed: 0
 
 
-# Вероятность с
+# Вероятность съесть добычу
 wolf_var_eat:
   horse: 10
   deer: 15

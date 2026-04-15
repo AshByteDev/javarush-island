@@ -3,6 +3,33 @@ island_config:
   width: 100
   height: 20
 
+simulation_config:
+  tick_duration_ms: 1000
+  max_ticks: 200
+  stop_when_no_animals: true
+  scheduled_pool_size: 3
+  worker_pool_size: 4
+  plant_growth_per_tick: 5
+  start_plants_per_location: 20
+  default_offspring_count: 1
+
+offspring_config:
+  wolf: 1
+  boa: 1
+  fox: 1
+  bear: 1
+  eagle: 1
+  horse: 1
+  deer: 1
+  rabbit: 1
+  mouse: 1
+  goat: 1
+  sheep: 1
+  boar: 1
+  buffalo: 1
+  duck: 1
+  caterpillar: 1
+
 # Характеристики животных
 wolf_char:
   weight: 50
